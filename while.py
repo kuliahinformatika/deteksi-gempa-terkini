@@ -11,4 +11,5 @@ while Jumlah_buku_sudah_dibaca < Jumlah_buku :
     print(f"Buku yang sudah dibaca {Jumlah_buku_sudah_dibaca} buah")
     
 
+print(f"Jumlah Buku yang sudah di baca {Jumlah_buku_sudah_dibaca}")
 #while digunakan perulangan yang tidak tertentu sampai kondisi true
