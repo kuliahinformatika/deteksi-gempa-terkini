@@ -25,22 +25,3 @@ for i in range(0, len(daftar_buku_baru)):
 
 daftar_buku.append('sidu')
 print(daftar_buku)
-
-print("\nPerintah del dengan list comprehension")
-del daftar_buku[:]
-for i in range(0, len(daftar_buku)):
-    print(daftar_buku[i])
-
-print("\nPerintah del dengan list comperhension strat")
-daftar_buku = ['atlas','kamus','buku_catatan']
-del daftar_buku[0:1]#START:END
-for i in range(0, len(daftar_buku)):
-    print(daftar_buku[i])
-    
-print("\nPerintah del dengan list comperhension strat")
-daftar_buku = ['atlas','kamus','buku_catatan']
-del daftar_buku[0::2]#START:END:STEP
-for i in range(0, len(daftar_buku)):
-    print(daftar_buku[i])
-    
-print(daftar_buku)

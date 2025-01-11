@@ -2,3 +2,4 @@
 # memulai rwid
 # mencoba computer
 # baru
+    
